@@ -9,8 +9,7 @@ double percent( double numvotes, double total){
     }else{
         double totalpercent = (numvotes/total) * 100;
     return totalpercent;
-    }
-    
+    }   
 }
 
 int main(){
