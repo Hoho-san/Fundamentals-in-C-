@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 
+	
+	void oddoreven(num) {
 	int num;
-void oddoreven() {
 	if (num % 2 == 0) {
 		cout << num << " is a even number";
 	}
@@ -17,7 +18,7 @@ int main ()
 	cout<< "Please input a number: ";
 	cin >> num;
 	
-	oddoreven();
+	oddoreven(num);
 	
 	return 0;
 }
